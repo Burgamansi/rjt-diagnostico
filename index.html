@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RJT Consultoria | Processos, Qualidade, ISO e Automação Industrial</title>
+<meta name="description" content="Consultoria empresarial especializada em gestão de processos, sistemas ISO, melhoria operacional, PCP, MRP, indicadores e transformação digital.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="RJT Consultoria | Processos, Qualidade, ISO e Automação Industrial">
+<meta property="og:description" content="Estruturamos processos, sistemas de gestão e operações industriais para reduzir desperdícios, melhorar o controle e transformar dados em decisões.">
+<meta property="og:image" content="https://diagnostico.rjtconsultoria.com.br/assets/images/logo-rjt.png">
+<meta property="og:url" content="https://diagnostico.rjtconsultoria.com.br/">
+<link rel="canonical" href="https://diagnostico.rjtconsultoria.com.br/">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+<header style="position:sticky;top:0;z-index:60;background:rgba(255,255,255,0.96);backdrop-filter:blur(10px);border-bottom:1px solid #e5e5e5">
+  <div style="max-width:1280px;margin:0 auto;padding:14px 28px;display:flex;align-items:center;gap:22px">
+    <a href="#inicio" aria-label="RJT Consultoria — início" style="display:flex;align-items:center;gap:16px;text-decoration:none;flex-shrink:0">
+      <img src="assets/images/logo-rjt.png" alt="RJT Consultoria Empresarial" width="93" height="46" style="display:block;width:93px;height:46px;object-fit:contain">
+      <span style="display:block;width:1px;height:38px;background:#e5e5e5"></span>
+      <span style="display:grid;gap:3px;font-size:10px;font-weight:700;letter-spacing:0.14em;color:#64748b;line-height:1">
+        <span>PROCESSOS</span><span>PESSOAS</span><span>RESULTADOS</span>
+      </span>
+    </a>
+
+    <nav id="desktop-nav" aria-label="Navegação principal" style="display:flex;align-items:center;gap:26px;margin-left:auto">
+      <a href="#inicio" class="hover-nav-border" style="font-size:14px;font-weight:600;color:#13233d;text-decoration:none;padding:6px 0;border-bottom:2px solid #1b98e0">Início</a>
+      <a href="#solucoes" class="hover-nav-border" style="font-size:14px;font-weight:600;color:#13233d;text-decoration:none;padding:6px 0;border-bottom:2px solid transparent">Soluções</a>
+      <a href="#diagnostico" class="hover-nav-border" style="font-size:14px;font-weight:600;color:#13233d;text-decoration:none;padding:6px 0;border-bottom:2px solid transparent">Diagnóstico</a>
+      <a href="#sobre" class="hover-nav-border" style="font-size:14px;font-weight:600;color:#13233d;text-decoration:none;padding:6px 0;border-bottom:2px solid transparent">Sobre</a>
+      <a href="#conteudos" class="hover-nav-border" style="font-size:14px;font-weight:600;color:#13233d;text-decoration:none;padding:6px 0;border-bottom:2px solid transparent">Conteúdos</a>
+      <a href="#contato" class="hover-nav-border" style="font-size:14px;font-weight:600;color:#13233d;text-decoration:none;padding:6px 0;border-bottom:2px solid transparent">Contato</a>
+      <a href="#avaliacao" class="hover-btn-cta" style="display:inline-flex;align-items:center;gap:10px;background:#1b98e0;color:#ffffff;font-size:14px;font-weight:700;text-decoration:none;padding:13px 22px;border-radius:6px;box-shadow:0 6px 18px rgba(27,152,224,0.28);transition:background .2s,transform .2s">Quero avaliar minha operação
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13"></path><path d="M13 6l6 6-6 6"></path></svg>
+      </a>
+    </nav>
+
+    <button id="burger-btn" type="button" aria-label="Abrir menu" aria-expanded="false" style="display:none;margin-left:auto;align-items:center;justify-content:center;width:46px;height:46px;border:1px solid #d7dee8;border-radius:6px;background:#ffffff;cursor:pointer;color:#13233d">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16"></path><path d="M4 12h16"></path><path d="M4 17h16"></path></svg>
+    </button>
+  </div>
+
+  <nav id="mobile-nav" aria-label="Navegação mobile" style="flex-direction:column;gap:2px;padding:10px 22px 20px;border-top:1px solid #e5e5e5;background:#ffffff">
+    <a href="#inicio" style="font-size:16px;font-weight:600;color:#13233d;text-decoration:none;padding:13px 4px;border-bottom:1px solid #eef2f6">Início</a>
+    <a href="#solucoes" style="font-size:16px;font-weight:600;color:#13233d;text-decoration:none;padding:13px 4px;border-bottom:1px solid #eef2f6">Soluções</a>
+    <a href="#diagnostico" style="font-size:16px;font-weight:600;color:#13233d;text-decoration:none;padding:13px 4px;border-bottom:1px solid #eef2f6">Diagnóstico</a>
+    <a href="#sobre" style="font-size:16px;font-weight:600;color:#13233d;text-decoration:none;padding:13px 4px;border-bottom:1px solid #eef2f6">Sobre</a>
+    <a href="#conteudos" style="font-size:16px;font-weight:600;color:#13233d;text-decoration:none;padding:13px 4px;border-bottom:1px solid #eef2f6">Conteúdos</a>
+    <a href="#contato" style="font-size:16px;font-weight:600;color:#13233d;text-decoration:none;padding:13px 4px;border-bottom:1px solid #eef2f6">Contato</a>
+    <a href="#avaliacao" style="margin-top:12px;text-align:center;background:#1b98e0;color:#ffffff;font-size:15px;font-weight:700;text-decoration:none;padding:15px 20px;border-radius:6px">Quero avaliar minha operação</a>
+  </nav>
+</header>
+
+<main>
+  <section id="inicio" style="position:relative;background:#ffffff;scroll-margin-top:90px;overflow:hidden">
+    <div style="display:flex;flex-wrap:wrap;align-items:stretch;min-height:600px">
+      <div style="flex:1 1 520px;min-width:300px;display:flex;flex-direction:column;justify-content:center;gap:24px;padding:clamp(40px,5vw,76px) clamp(22px,4vw,56px) clamp(44px,5vw,72px);max-width:760px;margin-left:auto;z-index:2">
+        <p style="margin:0;font-size:13px;font-weight:700;letter-spacing:0.16em;color:#64748b">INDÚSTRIA MAIS EFICIENTE. NEGÓCIOS MAIS FORTES.</p>
+        <h1 style="margin:0;font-size:clamp(34px,4.2vw,58px);font-weight:800;line-height:1.06;letter-spacing:-0.02em;color:#13233d;text-wrap:pretty">Sua operação está preparada para crescer <span style="color:#1b98e0">sem aumentar a complexidade?</span></h1>
+        <p style="margin:0;max-width:560px;font-size:clamp(15px,1.2vw,17px);font-weight:400;line-height:1.65;color:#475569;text-wrap:pretty">Estruturamos processos, sistemas de gestão e operações industriais para reduzir desperdícios, melhorar o controle e transformar dados em decisões.</p>
+        <div style="display:flex;flex-wrap:wrap;align-items:center;gap:14px;font-size:14px;font-weight:700;color:#13233d">
+          <span>Processos</span><span style="color:#c9d3de">|</span>
+          <span>Qualidade</span><span style="color:#c9d3de">|</span>
+          <span>Conformidade</span><span style="color:#c9d3de">|</span>
+          <span>Automação Operacional</span>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:6px">
+          <a href="#avaliacao" class="hover-btn-primary" style="display:inline-flex;align-items:center;gap:12px;background:#1b98e0;color:#ffffff;font-size:15px;font-weight:700;text-decoration:none;padding:17px 28px;border-radius:6px;box-shadow:0 10px 26px rgba(27,152,224,0.3);transition:background .2s,transform .2s">Quero avaliar minha operação
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13"></path><path d="M13 6l6 6-6 6"></path></svg>
+          </a>
+          <a href="#solucoes" class="hover-btn-outline" style="display:inline-flex;align-items:center;gap:10px;background:#ffffff;color:#13233d;font-size:15px;font-weight:700;text-decoration:none;padding:17px 28px;border-radius:6px;border:1.5px solid #cdd8e4;transition:border-color .2s,color .2s">Conhecer as soluções</a>
+        </div>
+      </div>
+
+      <div style="flex:1 1 460px;min-width:300px;position:relative;min-height:420px;background:#13233d">
+        <div class="hero-image-clip" style="position:absolute;inset:0;clip-path:polygon(16% 0, 100% 0, 100% 100%, 0 100%)">
+          <div style="position:absolute;inset:0;background:#13233d"></div>
+          <div style="position:absolute;inset:0;background:linear-gradient(105deg, rgba(19,35,61,0.92) 0%, rgba(19,35,61,0.45) 42%, rgba(19,35,61,0.28) 100%);pointer-events:none"></div>
+          <div style="position:absolute;inset:0;background:linear-gradient(200deg, rgba(27,152,224,0) 55%, rgba(27,152,224,0.35) 100%);pointer-events:none"></div>
+        </div>
+        <div style="position:absolute;top:clamp(34px,6vw,74px);left:clamp(24px,4vw,58px);right:clamp(24px,4vw,58px);pointer-events:none">
+          <p style="margin:0;font-size:clamp(19px,1.8vw,26px);font-weight:800;line-height:1.2;letter-spacing:0.01em;color:#ffffff;text-shadow:0 2px 18px rgba(0,0,0,0.45)">PROCESSOS<br>QUE IMPULSIONAM<br>RESULTADOS</p>
+          <span style="display:block;width:64px;height:4px;background:#1b98e0;margin-top:18px"></span>
+        </div>
+        <div style="position:absolute;bottom:0;right:0;padding:26px clamp(24px,4vw,52px) 26px 44px;background:rgba(19,35,61,0.88);border-top:3px solid #1b98e0;pointer-events:none">
+          <p style="margin:0;font-size:11px;font-weight:700;letter-spacing:0.18em;line-height:1.9;color:#ffffff;text-align:right">DO PLANEJAMENTO<br>À EXECUÇÃO,<br>SEMPRE AO SEU LADO</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="dores" style="background:#f5f7fa;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;padding:clamp(48px,5vw,76px) clamp(22px,4vw,40px);scroll-margin-top:90px">
+    <div style="max-width:1280px;margin:0 auto">
+      <h2 style="margin:0;text-align:center;font-size:clamp(24px,2.6vw,36px);font-weight:800;letter-spacing:-0.01em;color:#13233d;text-wrap:pretty">Onde sua empresa pode estar perdendo eficiência?</h2>
+      <p style="margin:14px auto 0;max-width:720px;text-align:center;font-size:16px;font-weight:400;line-height:1.6;color:#1b98e0;text-wrap:pretty">Se algum desses cenários faz parte da sua rotina, existe uma oportunidade de estruturação.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-top:40px">
+        <div class="hover-lift" style="background:#ffffff;border:1px solid #e5e5e5;border-radius:8px;padding:24px 20px;display:grid;gap:16px;transition:transform .2s,box-shadow .2s,border-color .2s">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#13233d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path></svg>
+          <p style="margin:0;font-size:14px;font-weight:700;line-height:1.45;color:#13233d">Processos dependentes de pessoas</p>
+        </div>
+        <div class="hover-lift" style="background:#ffffff;border:1px solid #e5e5e5;border-radius:8px;padding:24px 20px;display:grid;gap:16px;transition:transform .2s,box-shadow .2s,border-color .2s">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#13233d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18"></path><path d="M3 15h18"></path><path d="M9 3v18"></path></svg>
+          <p style="margin:0;font-size:14px;font-weight:700;line-height:1.45;color:#13233d">Planilhas críticas e controles paralelos</p>
+        </div>
+        <div class="hover-lift" style="background:#ffffff;border:1px solid #e5e5e5;border-radius:8px;padding:24px 20px;display:grid;gap:16px;transition:transform .2s,box-shadow .2s,border-color .2s">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#13233d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="2" width="6" height="6" rx="1"></rect><rect x="2" y="16" width="6" height="6" rx="1"></rect><rect x="16" y="16" width="6" height="6" rx="1"></rect><path d="M12 8v4"></path><path d="M5 16v-2h14v2"></path></svg>
+          <p style="margin:0;font-size:14px;font-weight:700;line-height:1.45;color:#13233d">PCP sem integração</p>
+        </div>
+        <div class="hover-lift" style="background:#ffffff;border:1px solid #e5e5e5;border-radius:8px;padding:24px 20px;display:grid;gap:16px;transition:transform .2s,box-shadow .2s,border-color .2s">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#13233d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 8l-9-5-9 5 9 5 9-5z"></path><path d="M3 8v8l9 5 9-5V8"></path><path d="M12 13v8"></path></svg>
+          <p style="margin:0;font-size:14px;font-weight:700;line-height:1.45;color:#13233d">Estoques sem confiabilidade</p>
+        </div>
+        <div class="hover-lift" style="background:#ffffff;border:1px solid #e5e5e5;border-radius:8px;padding:24px 20px;display:grid;gap:16px;transition:transform .2s,box-shadow .2s,border-color .2s">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#13233d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.6"></circle><circle cx="18" cy="20" r="1.6"></circle><path d="M2 3h3l2.6 11h10.7L21 6.5H6"></path></svg>
+          <p style="margin:0;font-size:14px;font-weight:700;line-height:1.45;color:#13233d">Compras reativas</p>
+        </div>
+        <div class="hover-lift" style="background:#ffffff;border:1px solid #e5e5e5;border-radius:8px;padding:24px 20px;display:grid;gap:16px;transition:transform .2s,box-shadow .2s,border-color .2s">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#13233d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l4 2"></path></svg>
+          <p style="margin:0;font-size:14px;font-weight:700;line-height:1.45;color:#13233d">Indicadores que chegam tarde</p>
+        </div>
+        <div class="hover-lift" style="background:#ffffff;border:1px solid #e5e5e5;border-radius:8px;padding:24px 20px;display:grid;gap:16px;transition:transform .2s,box-shadow .2s,border-color .2s">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#13233d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"></path><path d="M21 3v6h-6"></path></svg>
+          <p style="margin:0;font-size:14px;font-weight:700;line-height:1.45;color:#13233d">Retrabalho e desperdícios</p>
+        </div>
+        <div class="hover-lift" style="background:#ffffff;border:1px solid #e5e5e5;border-radius:8px;padding:24px 20px;display:grid;gap:16px;transition:transform .2s,box-shadow .2s,border-color .2s">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#13233d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4.3-4.3"></path></svg>
+          <p style="margin:0;font-size:14px;font-weight:700;line-height:1.45;color:#13233d">Falta de rastreabilidade</p>
+        </div>
+        <div class="hover-lift" style="background:#ffffff;border:1px solid #e5e5e5;border-radius:8px;padding:24px 20px;display:grid;gap:16px;transition:transform .2s,box-shadow .2s,border-color .2s">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#13233d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 16H3z"></path><path d="M12 9v4.5"></path><path d="M12 16.8h.01"></path></svg>
+          <p style="margin:0;font-size:14px;font-weight:700;line-height:1.45;color:#13233d">Não conformidades recorrentes</p>
+        </div>
+        <div class="hover-lift" style="background:#ffffff;border:1px solid #e5e5e5;border-radius:8px;padding:24px 20px;display:grid;gap:16px;transition:transform .2s,box-shadow .2s,border-color .2s">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#13233d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.4 8.2-8 9-4.6-.8-8-4-8-9V6z"></path><path d="M9 12l2 2 4-4"></path></svg>
+          <p style="margin:0;font-size:14px;font-weight:700;line-height:1.45;color:#13233d">SGQ distante da operação</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="solucoes" style="background:#13233d;padding:clamp(50px,5vw,80px) clamp(22px,4vw,40px);scroll-margin-top:90px">
+    <div style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(28px,3vw,44px);align-items:start">
+      <div style="display:grid;gap:22px;align-content:start">
+        <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:0.18em;color:#7ea8cf">NOSSO PROPÓSITO</p>
+        <h2 style="margin:0;font-size:clamp(28px,3.2vw,42px);font-weight:800;line-height:1.1;letter-spacing:-0.01em;color:#ffffff">PROCESSOS <span style="color:#1b98e0">+</span><br>CONFORMIDADE <span style="color:#1b98e0">+</span><br><span style="color:#1b98e0">TECNOLOGIA</span></h2>
+        <p style="margin:0;font-size:15px;font-weight:400;line-height:1.7;color:#cfdbe8;max-width:460px;text-wrap:pretty">A RJT Consultoria integra gestão de processos, sistemas de gestão e transformação digital para que procedimentos, pessoas, indicadores e tecnologia trabalhem como um único sistema operacional.</p>
+        <a href="#avaliacao" class="hover-btn-white" style="justify-self:start;display:inline-flex;align-items:center;gap:12px;background:#1b98e0;color:#ffffff;font-size:15px;font-weight:700;text-decoration:none;padding:16px 26px;border-radius:6px;transition:background .2s,color .2s">Conheça nossas soluções
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13"></path><path d="M13 6l6 6-6 6"></path></svg>
+        </a>
+      </div>
+
+      <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.13);border-radius:10px;padding:30px 26px;display:grid;gap:18px;align-content:start">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1b98e0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9.5" cy="9.5" r="3"></circle><path d="M9.5 3.2v2.1M9.5 13.7v2.1M3.2 9.5h2.1M13.7 9.5h2.1M5 5l1.5 1.5M13.5 13.5L15 15M14 5l-1.5 1.5M6.5 12.5L5 14"></path><circle cx="17" cy="17.5" r="2.2"></circle><path d="M17 13.6v1.2M17 20.2v1.2M13.1 17.5h1.2M19.7 17.5h1.2"></path></svg>
+        <h3 style="margin:0;font-size:19px;font-weight:800;letter-spacing:0.01em;color:#ffffff">GESTÃO &amp; PROCESSOS</h3>
+        <ul style="margin:0;padding:0;list-style:none;display:grid;gap:11px">
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Mapeamento e modelagem de processos</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>SIPOC e fluxogramas</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Indicadores de desempenho</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Lean Manufacturing</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Gestão de riscos</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Padronização operacional</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Redução de desperdícios</li>
+        </ul>
+      </div>
+
+      <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.13);border-radius:10px;padding:30px 26px;display:grid;gap:18px;align-content:start">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1b98e0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5l8 3v6.2c0 5.2-3.5 8.6-8 9.8-4.5-1.2-8-4.6-8-9.8V5.5z"></path><path d="M8.6 12.2l2.4 2.4 4.4-4.6"></path></svg>
+        <h3 style="margin:0;font-size:19px;font-weight:800;letter-spacing:0.01em;color:#ffffff">ISO &amp; CONFORMIDADE</h3>
+        <ul style="margin:0;padding:0;list-style:none;display:grid;gap:11px">
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>ISO 9001</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>ISO 14001</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>ISO 45001</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>ISO 22000</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>FSSC</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>BPF</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>HACCP / APPCC</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Auditorias internas</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Preparação para certificações</li>
+        </ul>
+      </div>
+
+      <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.13);border-radius:10px;padding:30px 26px;display:grid;gap:18px;align-content:start">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1b98e0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="3.5" width="19" height="13" rx="2"></rect><path d="M8.5 20.5h7M12 16.5v4"></path><path d="M6.5 12.5l3-3 2.5 2.5 4-4.5"></path></svg>
+        <h3 style="margin:0;font-size:19px;font-weight:800;letter-spacing:0.01em;color:#ffffff">AUTOMAÇÃO &amp; INTELIGÊNCIA OPERACIONAL</h3>
+        <ul style="margin:0;padding:0;list-style:none;display:grid;gap:11px">
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Digitalização de processos</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Substituição de planilhas críticas</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>PCP / MRP</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>BOM — Lista de Materiais</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Estoques</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Compras</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Rastreabilidade</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Dashboards</li>
+          <li style="display:flex;gap:11px;font-size:14px;line-height:1.45;color:#dbe5f0"><span style="color:#1b98e0;flex-shrink:0">◆</span>Indicadores</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" style="background:#ffffff;padding:clamp(48px,5vw,76px) clamp(22px,4vw,40px);scroll-margin-top:90px">
+    <div style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:clamp(30px,3vw,48px);align-items:start">
+      <div style="display:grid;gap:44px;align-content:start">
+        <div style="display:grid;gap:22px">
+          <h2 style="margin:0;font-size:clamp(23px,2.4vw,32px);font-weight:800;letter-spacing:-0.01em;color:#13233d;text-wrap:pretty">Da operação dependente para uma gestão estruturada</h2>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px">
+            <div style="border:1px solid #e5e5e5;border-radius:8px;overflow:hidden">
+              <p style="margin:0;background:#13233d;color:#ffffff;font-size:12px;font-weight:700;letter-spacing:0.14em;padding:13px 18px">CENÁRIO ATUAL</p>
+              <ul style="margin:0;padding:8px 0;list-style:none">
+                <li style="font-size:14px;color:#475569;padding:9px 18px;border-bottom:1px solid #f1f4f8">Planilhas isoladas</li>
+                <li style="font-size:14px;color:#475569;padding:9px 18px;border-bottom:1px solid #f1f4f8">Conhecimento concentrado em pessoas</li>
+                <li style="font-size:14px;color:#475569;padding:9px 18px;border-bottom:1px solid #f1f4f8">Indicadores atrasados</li>
+                <li style="font-size:14px;color:#475569;padding:9px 18px;border-bottom:1px solid #f1f4f8">Compras reativas</li>
+                <li style="font-size:14px;color:#475569;padding:9px 18px;border-bottom:1px solid #f1f4f8">Estoques sem confiança</li>
+                <li style="font-size:14px;color:#475569;padding:9px 18px;border-bottom:1px solid #f1f4f8">SGQ documental</li>
+                <li style="font-size:14px;color:#475569;padding:9px 18px;border-bottom:1px solid #f1f4f8">Problemas recorrentes</li>
+                <li style="font-size:14px;color:#475569;padding:9px 18px">Decisões por percepção</li>
+              </ul>
+            </div>
+            <div style="border:1px solid #bfd9ee;border-radius:8px;overflow:hidden;background:#f7fbfe">
+              <p style="margin:0;background:#1b98e0;color:#ffffff;font-size:12px;font-weight:700;letter-spacing:0.14em;padding:13px 18px">EVOLUÇÃO DESEJADA</p>
+              <ul style="margin:0;padding:8px 0;list-style:none">
+                <li style="font-size:14px;font-weight:500;color:#13233d;padding:9px 18px;border-bottom:1px solid #e7f1f9">Informações estruturadas</li>
+                <li style="font-size:14px;font-weight:500;color:#13233d;padding:9px 18px;border-bottom:1px solid #e7f1f9">Processos padronizados</li>
+                <li style="font-size:14px;font-weight:500;color:#13233d;padding:9px 18px;border-bottom:1px solid #e7f1f9">Gestão à vista</li>
+                <li style="font-size:14px;font-weight:500;color:#13233d;padding:9px 18px;border-bottom:1px solid #e7f1f9">Planejamento de necessidades</li>
+                <li style="font-size:14px;font-weight:500;color:#13233d;padding:9px 18px;border-bottom:1px solid #e7f1f9">Rastreabilidade e controle</li>
+                <li style="font-size:14px;font-weight:500;color:#13233d;padding:9px 18px;border-bottom:1px solid #e7f1f9">SGQ aplicado à operação</li>
+                <li style="font-size:14px;font-weight:500;color:#13233d;padding:9px 18px;border-bottom:1px solid #e7f1f9">Causa, ação e eficácia</li>
+                <li style="font-size:14px;font-weight:500;color:#13233d;padding:9px 18px">Decisões orientadas por dados</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="metodo" style="display:grid;gap:26px;scroll-margin-top:90px">
+          <h2 style="margin:0;font-size:clamp(22px,2.2vw,30px);font-weight:800;letter-spacing:-0.01em;color:#13233d">Nosso método, da análise à melhoria contínua.</h2>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(88px,1fr));gap:6px 0;background:linear-gradient(to bottom, transparent 19px, #dbe3ec 19px, #dbe3ec 21px, transparent 21px)">
+            <div style="display:grid;justify-items:center;gap:10px"><span style="display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#13233d;color:#ffffff;font-size:13px;font-weight:700">01</span><span style="font-size:12px;font-weight:600;color:#475569;text-align:center">Diagnosticar</span></div>
+            <div style="display:grid;justify-items:center;gap:10px"><span style="display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#13233d;color:#ffffff;font-size:13px;font-weight:700">02</span><span style="font-size:12px;font-weight:600;color:#475569;text-align:center">Mapear</span></div>
+            <div style="display:grid;justify-items:center;gap:10px"><span style="display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#13233d;color:#ffffff;font-size:13px;font-weight:700">03</span><span style="font-size:12px;font-weight:600;color:#475569;text-align:center">Simplificar</span></div>
+            <div style="display:grid;justify-items:center;gap:10px"><span style="display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#13233d;color:#ffffff;font-size:13px;font-weight:700">04</span><span style="font-size:12px;font-weight:600;color:#475569;text-align:center">Estruturar</span></div>
+            <div style="display:grid;justify-items:center;gap:10px"><span style="display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#1b98e0;color:#ffffff;font-size:13px;font-weight:700">05</span><span style="font-size:12px;font-weight:600;color:#475569;text-align:center">Digitalizar</span></div>
+            <div style="display:grid;justify-items:center;gap:10px"><span style="display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#1b98e0;color:#ffffff;font-size:13px;font-weight:700">06</span><span style="font-size:12px;font-weight:600;color:#475569;text-align:center">Implantar</span></div>
+            <div style="display:grid;justify-items:center;gap:10px"><span style="display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#1b98e0;color:#ffffff;font-size:13px;font-weight:700">07</span><span style="font-size:12px;font-weight:600;color:#475569;text-align:center">Capacitar</span></div>
+            <div style="display:grid;justify-items:center;gap:10px"><span style="display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#1b98e0;color:#ffffff;font-size:13px;font-weight:700">08</span><span style="font-size:12px;font-weight:600;color:#475569;text-align:center">Medir</span></div>
+            <div style="display:grid;justify-items:center;gap:10px"><span style="display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#1b98e0;color:#ffffff;font-size:13px;font-weight:700">09</span><span style="font-size:12px;font-weight:600;color:#475569;text-align:center">Melhorar</span></div>
+          </div>
+          <div style="display:flex;gap:20px;align-items:flex-start;background:#f5f7fa;border:1px solid #e5e5e5;border-radius:8px;padding:24px 26px">
+            <span style="flex-shrink:0;width:40px;height:4px;background:#1b98e0;margin-top:9px"></span>
+            <p style="margin:0;font-size:15px;font-weight:700;line-height:1.6;color:#13233d;text-wrap:pretty">Tecnologia não corrige processo ruim.<br><span style="font-weight:500;color:#475569">Primeiro estruturamos. Depois automatizamos o que gera valor.</span></p>
+          </div>
+        </div>
+      </div>
+
+      <form id="form-avaliacao" novalidate aria-labelledby="form-titulo" style="position:relative;background:#ffffff;border:1px solid #e5e5e5;border-radius:10px;box-shadow:0 18px 44px rgba(19,35,61,0.09);padding:clamp(24px,2.4vw,34px);display:grid;gap:16px;align-content:start;scroll-margin-top:100px">
+        <div id="avaliacao" style="position:absolute;top:-100px"></div>
+        <h2 id="form-titulo" style="margin:0;font-size:24px;font-weight:800;color:#1b98e0">Quero avaliar minha empresa</h2>
+        <p style="margin:0;font-size:14px;line-height:1.6;color:#475569">Preencha os dados e entraremos em contato para entender o seu cenário e indicar os próximos passos.</p>
+
+        <div style="display:grid;gap:6px">
+          <label for="f-nome" style="font-size:12px;font-weight:700;letter-spacing:0.04em;color:#13233d">Nome completo*</label>
+          <input id="f-nome" name="nome" type="text" required autocomplete="name" placeholder="Seu nome" class="input-field" style="width:100%;padding:14px 16px;font-size:15px;color:#13233d;background:#fafbfc;border:1px solid #d7dee8;border-radius:6px;transition:border-color .2s">
+        </div>
+        <div style="display:grid;gap:6px">
+          <label for="f-empresa" style="font-size:12px;font-weight:700;letter-spacing:0.04em;color:#13233d">Empresa*</label>
+          <input id="f-empresa" name="empresa" type="text" required autocomplete="organization" placeholder="Nome da empresa" class="input-field" style="width:100%;padding:14px 16px;font-size:15px;color:#13233d;background:#fafbfc;border:1px solid #d7dee8;border-radius:6px;transition:border-color .2s">
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px">
+          <div style="display:grid;gap:6px">
+            <label for="f-cargo" style="font-size:12px;font-weight:700;letter-spacing:0.04em;color:#13233d">Cargo*</label>
+            <input id="f-cargo" name="cargo" type="text" required autocomplete="organization-title" placeholder="Seu cargo" class="input-field" style="width:100%;padding:14px 16px;font-size:15px;color:#13233d;background:#fafbfc;border:1px solid #d7dee8;border-radius:6px;transition:border-color .2s">
+          </div>
+          <div style="display:grid;gap:6px">
+            <label for="f-email" style="font-size:12px;font-weight:700;letter-spacing:0.04em;color:#13233d">E-mail profissional*</label>
+            <input id="f-email" name="email" type="email" required autocomplete="email" placeholder="nome@empresa.com.br" class="input-field" style="width:100%;padding:14px 16px;font-size:15px;color:#13233d;background:#fafbfc;border:1px solid #d7dee8;border-radius:6px;transition:border-color .2s">
+          </div>
+        </div>
+        <div style="display:grid;gap:6px">
+          <label for="f-whatsapp" style="font-size:12px;font-weight:700;letter-spacing:0.04em;color:#13233d">WhatsApp*</label>
+          <input id="f-whatsapp" name="whatsapp" type="tel" required autocomplete="tel" inputmode="tel" placeholder="(19) 99999-9999" class="input-field" style="width:100%;padding:14px 16px;font-size:15px;color:#13233d;background:#fafbfc;border:1px solid #d7dee8;border-radius:6px;transition:border-color .2s">
+        </div>
+        <div style="display:grid;gap:6px">
+          <label for="f-necessidade" style="font-size:12px;font-weight:700;letter-spacing:0.04em;color:#13233d">Principal necessidade*</label>
+          <select id="f-necessidade" name="necessidade" required class="input-field" style="width:100%;padding:14px 16px;font-size:15px;color:#13233d;background:#fafbfc;border:1px solid #d7dee8;border-radius:6px">
+            <option value="">Selecione uma opção</option>
+            <option value="processos">Estruturação de processos</option>
+            <option value="iso">ISO / Sistema de Gestão</option>
+            <option value="auditoria">Auditoria</option>
+            <option value="pcp">PCP / MRP</option>
+            <option value="estoque">Estoque / Compras</option>
+            <option value="digitalizacao">Digitalização de processos</option>
+            <option value="indicadores">Indicadores</option>
+            <option value="custos">Redução de custos</option>
+            <option value="conversar">Ainda não sei / gostaria de conversar</option>
+          </select>
+        </div>
+        <label for="f-consent" style="display:flex;gap:10px;align-items:flex-start;font-size:13px;line-height:1.5;color:#475569;cursor:pointer">
+          <input id="f-consent" name="consent" type="checkbox" required style="margin-top:2px;width:16px;height:16px;accent-color:#1b98e0;flex-shrink:0">
+          <span>Autorizo a RJT Consultoria a entrar em contato sobre esta solicitação.</span>
+        </label>
+        <p id="form-msg" role="status" aria-live="polite" style="display:none;margin:0;font-size:13px;font-weight:600;line-height:1.5;padding:13px 16px;border-radius:6px;border:1px solid transparent"></p>
+        <button type="submit" class="hover-btn-primary" style="display:inline-flex;align-items:center;justify-content:center;gap:12px;width:100%;background:#1b98e0;color:#ffffff;font-size:15px;font-weight:700;letter-spacing:0.04em;padding:18px 24px;border:none;border-radius:6px;cursor:pointer;box-shadow:0 10px 26px rgba(27,152,224,0.28);transition:background .2s,transform .2s">SOLICITAR AVALIAÇÃO INICIAL
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13"></path><path d="M13 6l6 6-6 6"></path></svg>
+        </button>
+        <p style="margin:0;font-size:12px;line-height:1.5;color:#94a3b8">Preferir falar agora? <a href="https://wa.me/5519998052374" target="_blank" rel="noopener noreferrer" style="font-weight:700;text-decoration:none">Chamar no WhatsApp</a> ou ligar para <a href="tel:+5519998052374" style="font-weight:700;text-decoration:none">+55 19 99805-2374</a>.</p>
+      </form>
+    </div>
+  </section>
+
+  <section id="diagnostico" style="background:#f5f7fa;border-top:1px solid #e5e5e5;padding:clamp(46px,4.6vw,70px) clamp(22px,4vw,40px);scroll-margin-top:90px">
+    <div style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(26px,3vw,44px);align-items:center">
+      <div style="display:grid;gap:18px;align-content:start">
+        <p style="margin:0;font-size:12px;font-weight:700;letter-spacing:0.18em;color:#1b98e0">DIAGNÓSTICO DE MATURIDADE RJT</p>
+        <h2 style="margin:0;font-size:clamp(23px,2.4vw,33px);font-weight:800;letter-spacing:-0.01em;color:#13233d;text-wrap:pretty">Descubra o nível de maturidade da sua operação</h2>
+        <p style="margin:0;font-size:15px;line-height:1.65;color:#475569;max-width:520px">Uma avaliação estruturada por frentes da operação, para mostrar onde estruturar primeiro e o que só faz sentido automatizar depois.</p>
+        <button id="btn-open-modal" type="button" class="hover-btn-blue-to-dark" style="justify-self:start;display:inline-flex;align-items:center;gap:12px;background:#13233d;color:#ffffff;font-size:15px;font-weight:700;letter-spacing:0.04em;padding:17px 28px;border:none;border-radius:6px;cursor:pointer;transition:background .2s,transform .2s">INICIAR DIAGNÓSTICO
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13"></path><path d="M13 6l6 6-6 6"></path></svg>
+        </button>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px">
+        <p style="margin:0;background:#ffffff;border:1px solid #e5e5e5;border-left:3px solid #1b98e0;border-radius:6px;padding:16px 18px;font-size:14px;font-weight:700;color:#13233d">Processos</p>
+        <p style="margin:0;background:#ffffff;border:1px solid #e5e5e5;border-left:3px solid #1b98e0;border-radius:6px;padding:16px 18px;font-size:14px;font-weight:700;color:#13233d">Qualidade / SGI</p>
+        <p style="margin:0;background:#ffffff;border:1px solid #e5e5e5;border-left:3px solid #1b98e0;border-radius:6px;padding:16px 18px;font-size:14px;font-weight:700;color:#13233d">PCP</p>
+        <p style="margin:0;background:#ffffff;border:1px solid #e5e5e5;border-left:3px solid #1b98e0;border-radius:6px;padding:16px 18px;font-size:14px;font-weight:700;color:#13233d">Estoques</p>
+        <p style="margin:0;background:#ffffff;border:1px solid #e5e5e5;border-left:3px solid #1b98e0;border-radius:6px;padding:16px 18px;font-size:14px;font-weight:700;color:#13233d">Compras</p>
+        <p style="margin:0;background:#ffffff;border:1px solid #e5e5e5;border-left:3px solid #1b98e0;border-radius:6px;padding:16px 18px;font-size:14px;font-weight:700;color:#13233d">Indicadores</p>
+        <p style="margin:0;background:#ffffff;border:1px solid #e5e5e5;border-left:3px solid #1b98e0;border-radius:6px;padding:16px 18px;font-size:14px;font-weight:700;color:#13233d">Rastreabilidade</p>
+        <p style="margin:0;background:#ffffff;border:1px solid #e5e5e5;border-left:3px solid #1b98e0;border-radius:6px;padding:16px 18px;font-size:14px;font-weight:700;color:#13233d">Digitalização</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="conteudos" style="position:relative;background:#13233d;overflow:hidden;scroll-margin-top:90px">
+    <div style="position:absolute;inset:0;background:#13233d"></div>
+    <div style="position:absolute;inset:0;background:linear-gradient(100deg, rgba(19,35,61,0.96) 0%, rgba(19,35,61,0.88) 50%, rgba(19,35,61,0.72) 100%);pointer-events:none"></div>
+    <div style="position:relative;max-width:1280px;margin:0 auto;padding:clamp(48px,5vw,78px) clamp(22px,4vw,40px);display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(30px,3.4vw,52px);align-items:center;pointer-events:none">
+      <div style="display:grid;gap:22px;align-content:start;pointer-events:auto">
+        <h2 style="margin:0;font-size:clamp(24px,2.6vw,36px);font-weight:800;line-height:1.18;letter-spacing:-0.01em;color:#ffffff;text-wrap:pretty">Sua empresa não precisa de mais controles.<br>Precisa de processos que funcionem.</h2>
+        <p style="margin:0;font-size:16px;line-height:1.65;color:#d5e0ec;max-width:520px">Converse com a RJT Consultoria e avalie oportunidades de melhoria na sua operação.</p>
+        <a href="#avaliacao" class="hover-btn-blue-to-white" style="justify-self:start;display:inline-flex;align-items:center;gap:12px;background:#1b98e0;color:#ffffff;font-size:15px;font-weight:700;text-decoration:none;padding:17px 28px;border-radius:6px;transition:background .2s,color .2s,transform .2s">Solicitar diagnóstico
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13"></path><path d="M13 6l6 6-6 6"></path></svg>
+        </a>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:14px;pointer-events:auto">
+        <div style="display:flex;gap:14px;align-items:center;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.16);border-radius:8px;padding:18px 20px">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M18.7 5.3l-2.1 2.1M7.4 16.6l-2.1 2.1"></path></svg>
+          <p style="margin:0;font-size:14px;font-weight:600;line-height:1.4;color:#ffffff">Mais eficiência na operação</p>
+        </div>
+        <div style="display:flex;gap:14px;align-items:center;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.16);border-radius:8px;padding:18px 20px">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0" aria-hidden="true"><path d="M12 2.5l8 3v6.2c0 5.2-3.5 8.6-8 9.8-4.5-1.2-8-4.6-8-9.8V5.5z"></path><path d="M8.6 12.2l2.4 2.4 4.4-4.6"></path></svg>
+          <p style="margin:0;font-size:14px;font-weight:600;line-height:1.4;color:#ffffff">Conformidade com as normas</p>
+        </div>
+        <div style="display:flex;gap:14px;align-items:center;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.16);border-radius:8px;padding:18px 20px">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0" aria-hidden="true"><path d="M3 21h18"></path><path d="M6 21V11M11 21V5M16 21v-7M21 21V8"></path></svg>
+          <p style="margin:0;font-size:14px;font-weight:600;line-height:1.4;color:#ffffff">Decisões baseadas em dados</p>
+        </div>
+        <div style="display:flex;gap:14px;align-items:center;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.16);border-radius:8px;padding:18px 20px">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0" aria-hidden="true"><path d="M4 20c8 1 15-4 16-16-7 0-13 2-15 7-1 2.5-1 6.5-1 9z"></path><path d="M4 20c1-5 4-8 8-10"></path></svg>
+          <p style="margin:0;font-size:14px;font-weight:600;line-height:1.4;color:#ffffff">Crescimento sustentável</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contato" style="background:#13233d;color:#ffffff;scroll-margin-top:90px">
+  <div style="max-width:1280px;margin:0 auto;padding:clamp(36px,3.6vw,52px) clamp(22px,4vw,40px);display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:clamp(26px,3vw,40px);align-items:start">
+    <div style="display:grid;gap:20px;align-content:start">
+      <div style="display:flex;align-items:center;gap:16px">
+        <img src="assets/images/logo-rjt-branco.png" alt="RJT Consultoria Empresarial" width="101" height="50" loading="lazy" style="display:block;width:101px;height:50px;object-fit:contain">
+        <span style="display:block;width:1px;height:40px;background:rgba(255,255,255,0.22)"></span>
+        <span style="display:grid;gap:3px;font-size:10px;font-weight:700;letter-spacing:0.14em;color:#9fb4c9;line-height:1">
+          <span>PROCESSOS</span><span>PESSOAS</span><span>RESULTADOS</span>
+        </span>
+      </div>
+      <p style="margin:0;font-size:15px;font-weight:700;color:#ffffff">RJT Consultoria Empresarial</p>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Capiberibe+188+Vila+Dainese+Americana+SP" target="_blank" rel="noopener noreferrer" class="hover-link" style="display:flex;gap:12px;align-items:flex-start;font-size:14px;line-height:1.5;color:#cfdbe8;text-decoration:none">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#1b98e0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;margin-top:2px" aria-hidden="true"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11z"></path><circle cx="12" cy="10" r="2.6"></circle></svg>
+        <span>Rua Capiberibe, 188<br>Vila Dainese<br>Americana - SP</span>
+      </a>
+    </div>
+
+    <div style="display:grid;gap:14px;align-content:start">
+      <p style="margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:0.16em;color:#7ea8cf">CONTATO</p>
+      <a href="tel:+5519998052374" class="hover-link" style="display:flex;gap:12px;align-items:center;font-size:14px;color:#cfdbe8;text-decoration:none">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#1b98e0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0" aria-hidden="true"><path d="M21 16.9v2.6a1.6 1.6 0 0 1-1.8 1.6 16 16 0 0 1-7-2.5 15.7 15.7 0 0 1-4.8-4.8 16 16 0 0 1-2.5-7A1.6 1.6 0 0 1 6.5 5h2.6a1.6 1.6 0 0 1 1.6 1.4c.1.9.3 1.7.6 2.5a1.6 1.6 0 0 1-.4 1.7l-1.1 1.1a12.8 12.8 0 0 0 4.8 4.8l1.1-1.1a1.6 1.6 0 0 1 1.7-.4c.8.3 1.6.5 2.5.6a1.6 1.6 0 0 1 1.4 1.6z"></path></svg>
+        <span>+55 19 99805-2374</span>
+      </a>
+      <a href="https://wa.me/5519998052374" target="_blank" rel="noopener noreferrer" class="hover-link" style="display:flex;gap:12px;align-items:center;font-size:14px;color:#cfdbe8;text-decoration:none">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="#1b98e0" style="flex-shrink:0" aria-hidden="true"><path d="M12.04 2.2a9.76 9.76 0 0 0-8.3 14.9L2.2 21.8l4.83-1.5a9.76 9.76 0 1 0 5.01-18.1zm0 1.8a7.95 7.95 0 0 1 4.02 14.83 7.95 7.95 0 0 1-8.3-.24l-.44-.28-2.5.78.79-2.42-.29-.45A7.95 7.95 0 0 1 12.04 4zm-3.3 3.68c-.18 0-.47.07-.71.34-.25.27-.94.92-.94 2.24s.96 2.6 1.1 2.78c.13.18 1.86 2.96 4.57 4.03 2.25.89 2.71.71 3.2.66.49-.04 1.58-.65 1.8-1.28.23-.63.23-1.17.16-1.28-.07-.11-.27-.18-.56-.32-.29-.15-1.66-.82-1.92-.91-.26-.1-.45-.15-.63.14-.18.29-.72.91-.88 1.09-.16.18-.33.2-.61.07-.29-.15-1.06-.4-2.02-1.25-.74-.66-1.24-1.47-1.39-1.76-.14-.29-.01-.45.13-.6.13-.13.29-.34.44-.51.14-.18.2-.3.29-.5.09-.18.05-.34-.02-.49-.07-.14-.6-1.51-.83-2.06-.19-.44-.38-.44-.56-.45h-.47z"></path></svg>
+        <span>WhatsApp</span>
+      </a>
+      <a href="mailto:contato@rjtconsultoria.com.br" class="hover-link" style="display:flex;gap:12px;align-items:center;font-size:14px;color:#cfdbe8;text-decoration:none;word-break:break-word">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#1b98e0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2"></rect><path d="M3 6l9 6.5L21 6"></path></svg>
+        <span>contato@rjtconsultoria.com.br</span>
+      </a>
+      <a href="https://rjtconsultoria.com.br/" target="_blank" rel="noopener noreferrer" class="hover-link" style="display:flex;gap:12px;align-items:center;font-size:14px;color:#cfdbe8;text-decoration:none">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#1b98e0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3.2 9.5h17.6M3.2 14.5h17.6"></path><path d="M12 3c2.4 2.6 2.4 15.4 0 18M12 3c-2.4 2.6-2.4 15.4 0 18"></path></svg>
+        <span>www.rjtconsultoria.com.br</span>
+      </a>
+    </div>
+
+    <div style="display:grid;gap:14px;align-content:start">
+      <p style="margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:0.16em;color:#7ea8cf">REDES SOCIAIS</p>
+      <a href="https://www.linkedin.com/company/rjt-consultoriaemqualidade" target="_blank" rel="noopener noreferrer" class="hover-link" style="display:flex;gap:12px;align-items:center;font-size:14px;color:#cfdbe8;text-decoration:none">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="#1b98e0" style="flex-shrink:0" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM3 9.5h4v11H3zM10 9.5h3.8v1.5a4.2 4.2 0 0 1 3.7-1.8c2.6 0 4.5 1.6 4.5 5v6.3h-4v-5.6c0-1.5-.6-2.4-1.9-2.4-1.2 0-2.1.8-2.1 2.4v5.6H10z"></path></svg>
+        <span>RJT Consultoria</span>
+      </a>
+      <a href="https://www.instagram.com/rjtrogerioconsultoria" target="_blank" rel="noopener noreferrer" class="hover-link" style="display:flex;gap:12px;align-items:center;font-size:14px;color:#cfdbe8;text-decoration:none">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#1b98e0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><path d="M17.3 6.8h.01"></path></svg>
+        <span>@rjtrogerioconsultoria</span>
+      </a>
+      <a href="#avaliacao" class="hover-btn-white" style="margin-top:10px;justify-self:start;display:inline-flex;align-items:center;gap:10px;background:#1b98e0;color:#ffffff;font-size:14px;font-weight:700;text-decoration:none;padding:14px 22px;border-radius:6px;transition:background .2s,color .2s">Quero avaliar minha operação</a>
+    </div>
+  </div>
+
+  <div style="border-top:1px solid rgba(255,255,255,0.14)">
+    <div style="max-width:1280px;margin:0 auto;padding:20px clamp(22px,4vw,40px);display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;align-items:center">
+      <p style="margin:0;font-size:12.5px;color:#93a7bd">© 2026 RJT Consultoria Empresarial. Todos os direitos reservados.</p>
+      <p style="margin:0;font-size:12.5px;font-style:italic;color:#93a7bd;max-width:620px">"Ser consultor e parceiro é transformar o mercado por meio do conhecimento e do networking."</p>
+    </div>
+  </div>
+</footer>
+
+<button id="btn-top" type="button" aria-label="Voltar ao topo" style="position:fixed;right:22px;bottom:22px;z-index:70;align-items:center;justify-content:center;width:48px;height:48px;border-radius:50%;border:none;background:#13233d;color:#ffffff;cursor:pointer;box-shadow:0 10px 26px rgba(19,35,61,0.32);transition:background .2s,transform .2s">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V6"></path><path d="M6 12l6-6 6 6"></path></svg>
+</button>
+
+<div id="modal-diagnostico" role="dialog" aria-modal="true" aria-label="Diagnóstico de Maturidade RJT" style="position:fixed;inset:0;z-index:90;align-items:center;justify-content:center;padding:24px;background:rgba(11,20,35,0.62)">
+  <div style="width:100%;max-width:460px;background:#ffffff;border-radius:10px;padding:34px 30px;display:grid;gap:16px;box-shadow:0 30px 70px rgba(0,0,0,0.3)">
+    <span style="display:block;width:48px;height:4px;background:#1b98e0"></span>
+    <h2 style="margin:0;font-size:22px;font-weight:800;color:#13233d">Diagnóstico de Maturidade RJT — em preparação.</h2>
+    <p style="margin:0;font-size:14px;line-height:1.6;color:#475569">A avaliação por frentes (processos, qualidade, PCP, estoques, compras, indicadores, rastreabilidade e digitalização) está em desenvolvimento. Enquanto isso, solicite a avaliação inicial e falamos diretamente com você.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:4px">
+      <a href="#avaliacao" data-close-modal class="hover-btn-primary" style="display:inline-flex;align-items:center;gap:10px;background:#1b98e0;color:#ffffff;font-size:14px;font-weight:700;text-decoration:none;padding:14px 22px;border-radius:6px;transition:background .2s">Solicitar avaliação inicial</a>
+      <button type="button" data-close-modal class="hover-btn-close" style="background:#ffffff;color:#13233d;font-size:14px;font-weight:700;padding:14px 22px;border:1.5px solid #cdd8e4;border-radius:6px;cursor:pointer;transition:border-color .2s,color .2s">Fechar</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
