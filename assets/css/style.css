@@ -1,0 +1,20 @@
+/* ================================================================
+   RJT Consultoria Empresarial â Landing Page V1
+   Site: diagnostico.rjtconsultoria.com.br
+   ================================================================ */
+
+/* --- Reset & Base --- */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  font-family: 'Libre Franklin', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #13233d;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid #1b98e0; outline-offset: 2px; }
+input, select, textarea, button { font-family: inherit; }
