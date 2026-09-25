@@ -18,3 +18,6 @@ img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; }
 :focus-visible { outline: 3px solid #1b98e0; outline-offset: 2px; }
 input, select, textarea, button { font-family: inherit; }
+/* Modal diagnóstico */
+#modal-diagnostico           { display: none; }
+#modal-diagnostico.open      { display: flex; }
